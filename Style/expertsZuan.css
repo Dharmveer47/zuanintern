@@ -1,0 +1,64 @@
+.ExperUsers{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+.ExpertSingleUser{
+    min-width: 250px;
+    display: flex;
+    align-items: center;justify-content: center; flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 4px 8px ;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.ExpertSingleUserImg{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+.ExpertSingleUserImg >:nth-child(1){
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: inset 12px 11px 4px rgba(0, 0, 0, 0.25);
+}
+.ExpertSingleUserImg >:nth-child(2){
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+}
+/* .ExpertSingleUserName{
+    border: 1px solid rebeccapurple; */
+    /* } */
+    .ExpertSingleUserName h2{
+        width: 90%;
+        font-weight: normal;
+        margin: auto;
+    }
+.ExpertSingleUserName p{
+    width: 90%;
+    font-weight: normal;
+    margin: auto;
+}
+.ExperUsersWapens{
+   margin-top: 5px;
+}
+.ExperUsersStar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+    
+}

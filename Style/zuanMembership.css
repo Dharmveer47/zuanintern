@@ -1,0 +1,61 @@
+.zuanMembership {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0px;
+  background: linear-gradient(132.47deg, #dc7666 49.73%, #fbde53 181.82%);
+}
+.zuanLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zuanLogo img{
+  width: 60%;
+  height: auto;
+}
+.zuanMembership > div {
+  width: 100%;
+}
+.zuanDes {
+  border-left: 4px solid gray;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.zuanDes span,
+div {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.801);
+}
+.zuanMember {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.zuanMember button {
+    width: 218px;
+    color: #dc7666;
+    font-size: 18px;
+    height: 44px;
+    border: none;
+  background: linear-gradient(107.8deg, #121111 0%, #494747 104.12%);
+  border-radius: 8px;
+  margin: 10px 0px;
+}
+.zuanMember button:hover{
+  cursor: pointer;
+  background: linear-gradient(107.8deg, #121111 0%, #494747 104.12%);
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+@media screen and (max-width: 720px) {
+  .zuanMembership {
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 90%; */
+    margin: auto;
+  }
+  .zuanMembership > div {
+    width: 90%;
+    margin: auto;
+  }
+}

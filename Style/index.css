@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,500;1,300&family=Ubuntu&display=swap");
+:root {
+  --gray2: #4F4F4F;
+  --white: #ffffff;
+}
+/* Universal Css */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+/* Universal button */
+.Btn {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  background: linear-gradient(95.16deg, #dc7666 45.86%, #fbde53 209.75%);
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.Btn:hover {
+  cursor: pointer;
+  background: linear-gradient(93.38deg, #ec6d59 32.83%, #e5b060 111.9%);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+.lightBtn {
+  background: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  white-space: nowrap;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(rgba(220, 118, 102, 1), rgba(255, 126, 109, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lightBtn:hover {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  background: -webkit-linear-gradient(rgba(220, 118, 102, 1), rgba(255, 126, 109, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+  font-weight: normal;
+}
+footer{
+  height: 300px;
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

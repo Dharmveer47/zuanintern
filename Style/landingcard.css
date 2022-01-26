@@ -1,0 +1,60 @@
+.card01 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(172, 172, 172);
+  overflow: scroll;
+  overflow-y: hidden;
+}
+.singleCard {
+  cursor: pointer;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  height: 190px;
+  justify-content: center;
+
+  background: #ffffff;
+  /* Gray 3 */
+
+  border: 0.5px solid #828282;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+
+.singleCard > :nth-last-child(1) {
+  display: flex;
+  /* border: 1px solid rebeccapurple; */
+  margin: 20px 0px;
+  align-items: baseline;
+  color: gray;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.singleCard h2 {
+  font-weight: normal;
+  margin-top: 20px;
+}
+.singleCard img {
+  margin-top: 20px;
+}
+svg{
+    fill: #4F4F4F;
+}
+.singleCard:hover{
+  fill: white;
+  background: linear-gradient(132.47deg, #dc7666 49.73%, #fbde53 181.82%);
+  box-sizing: border-box;
+  color: white;
+}
+.singleCard:hover svg{
+    fill: white;
+}
+.singleCard:hover, .singleCard p{
+    color: white;
+}

@@ -1,0 +1,54 @@
+
+.studentTestimonials >div h1{
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid rebeccapurple; */
+}
+.studentCard{
+    padding: 20px 0px;
+    display: flex;
+    width: 100%;
+    min-height:300px ;
+    /* border: 1px solid yellow; */
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.studentSingleCard{
+    margin: 25px 10px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    min-width: 350px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgb(92, 92, 92);
+    
+}
+.studentSingleCard>div:nth-child(1){
+    width: 90%;
+    margin: auto;
+    
+}
+.studentSingleCard p{
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.studentSingleCard>div>h3{
+    margin-top: 20px;
+}
+.studentSingleCard > div >:last-child img{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.studentSingleCard > div >:last-child{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.studentSingleCard > div >:last-child h3{
+    margin-left: 10px;
+    /* border: 1px solid rebeccapurple; */
+}

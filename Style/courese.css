@@ -1,0 +1,186 @@
+/* Main Container */
+.CourseInfo {
+  padding-top: 50px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+}
+.pcourses{
+  filter: drop-shadow(0px -8px 8px rgba(0, 0, 0, 0.16));
+}
+/* Courser Description*/
+.courseDes {
+  width: 60%;
+}
+/*   " Your Courser "  */
+.courseDes h1 {
+  font-weight: normal;
+  font-size: 44px;
+}
+/*  Paragraph Tag " Lorem ipsum dolor sit, amer consertuer..." */
+.courseDes p {
+  color: var(--gray2);
+}
+
+/*  Courser Categories  */
+.CourseCat {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  white-space: nowrap;
+  border-left: 3px solid gray;
+  margin-right: 40px;
+}
+/*  Selet all div withing Courser Categegry */
+.CourseCat div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* select all p tag " Categories Name" */
+.CourseCat div p {
+  margin: 0px 10px;
+  color: var(--gray2);
+}
+/* Main Course Card */
+.coureseCard {
+  display: flex;
+  min-height: 450px;
+  width: 100%;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+/* Single Courser Card  */
+.coureseCardSingle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 405px;
+  background: #ffffff;
+  margin: 10px;
+
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+/* Teeth Imgage selected */
+.coureseCardImg > img {
+  border-radius: 10px;
+  width: 100%;
+  /* min-width: 200px; */
+
+  height: auto;
+}
+/* Course Image Within " Date time etc..." */
+.coureseCardImg > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -30px;
+  color: white;
+}
+/* Card Heading  */
+.coureseCardHeading {
+  width: 90%;
+  margin: 0px auto;
+}
+/* Card Heading " h2 tag " Master Class on Dental ...."" */
+.coureseCardHeading h2 {
+  font-weight: 100;
+  font-style: normal;
+}
+/* Card Heading " p tag " Oral Surgey"" */
+.coureseCardHeading p {
+  border: 1px solid gray;
+  margin: 15px 0px;
+  padding: 3px 5px;
+  width: 100px;
+  border-radius: 3px;
+}
+/* Couser Complete Card */
+.coureseCardComplete {
+  font-weight: 500;
+  width: 90%;
+}
+/* "  Course Completion " */
+.coureseCardComplete div {
+  margin-top: 10px;
+  background-color: rgb(218, 218, 218);
+  width: 90%;
+  height: 6px;
+  border-radius: 3px;
+}
+/* Targer Empty div for ---- progress bar ---- */
+.coureseCardComplete div div {
+  width: 60%;
+  background: linear-gradient(93.38deg, #ec6d59 32.83%, #e5b060 111.9%);
+}
+/* Courser Rating */
+.CourseRating {
+  margin-top: 10px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* border: 1px solid red; */
+}
+
+/* Adding popular Course footer */
+.PopularCourseFooter{
+  margin: 10px 0px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.PopularCourseFooter > :nth-child(1){
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+/* For Mobile and Tab */
+.couserRatingAndLanguage{
+ 
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between; 
+}
+.couserRatingAndLanguage > :nth-last-child(1){
+  margin: 0px 20px;
+}
+@media screen and (max-width: 720px) {
+  .CourseInfo {
+    flex-direction: column;
+  }
+  .courseDes {
+    width: 90%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid gray;
+  }
+  .CourseCat {
+    width: 90%;
+    border: none;
+  }
+  .coureseCardImg > div {
+    display: none;
+  }
+  .coureseCardSingle {
+    min-height: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .coureseCardSingle {
+    min-height: 350px;
+  }
+}
